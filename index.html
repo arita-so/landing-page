@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="animate__animated animate__bounceInDown animate__slow">
+    <div id="carrega"class="animate__animated animate__bounceInDown animate__slow">
         <h1>Ana Soares</h1>
         <p class="primeiro-paragrafo">Aprendiz de programação!</p>
-        <p>Tenciono em <span>aprender mais</span> sobre programação.<br>
+        <p>Tenciono em <span id="aprender" onmouseover="changeBackground()" onmouseout="backToNormal()">aprender mais</span> sobre programação.<br>
         Se também tens esse interesse, porque <br>
-        não criarmos um <span>grupo de estudo.</span></p> 
+        não criarmos um <span id="grupo" onmouseover="changeBackground1()" onmouseout="backToNormal1()">grupo de estudo.</span></p> 
         <p class="terceiro-paragrafo">Parece-te bem?</p>
     </div>
     <div class="animate__animated animate__fadeInUpBig animate__slow">
@@ -27,5 +27,6 @@
             <li><a href="https://github.com/arita-so" target="_blank"><i class="fa-brands fa-github-alt fa-2xl"></i></a></li>
         </ul>
     </div>
+    <script src="myscript.js"></script>
 </body>
 </html>
