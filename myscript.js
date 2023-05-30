@@ -8,17 +8,15 @@ carrega.addEventListener ('click', (event) => {
 function changeBackground(){
     document.getElementById("aprender").style.color = "white";
     document.getElementById("aprender").style.backgroundColor = "#ff6585";
-    
 }
 
 function backToNormal(){
     document.getElementById("aprender").style.color = "#ff6585";
     document.getElementById("aprender").style.backgroundColor = "";
-    
 }
 
 function changeBackground1(){
-   document.getElementById("grupo").style.color = "white";
+    document.getElementById("grupo").style.color = "white";
     document.getElementById("grupo").style.backgroundColor = "#ff6585";
 }
 
