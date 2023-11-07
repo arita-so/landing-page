@@ -9,4 +9,6 @@ This training contained three Steps, in Step1 - Tech Scan I learned HTML, CSS an
 
 https://arita-so.github.io/landing-page/
 
+
+
 <img width="717" alt="stepbytech_fases" src="https://github.com/arita-so/landing-page/assets/114316027/5a59a244-9afa-49f1-852c-e51e9124d6f0">
